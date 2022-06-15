@@ -1,13 +1,17 @@
-import React from 'react'
+import React from "react";
+
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import HeroImg2 from "../components/HeroImg2";
 
 function Projects() {
   return (
     <div>
-      <h1>Project</h1>
-      <p>When the cock</p>
+      <Navbar />
+      <HeroImg2 heading="PROJECTS." text="Some of my recent works" />
+      <Footer />
     </div>
-    
-  )
+  );
 }
 
-export default Projects
+export default Projects;
