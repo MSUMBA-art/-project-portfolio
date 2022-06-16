@@ -4,13 +4,16 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import HeroImg2 from "../components/HeroImg2";
 import PricingCards from "../components/PricingCards";
+import Work from "../components/Work";
 
 function Projects() {
   return (
     <div>
       <Navbar />
       <HeroImg2 heading="PROJECTS." text="Some of my recent works" />
+      <Work />
       <PricingCards />
+      
       <Footer />
     </div>
   );
