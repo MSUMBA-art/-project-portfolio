@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
 
         <div className="right">
-          <h4>About Alexander</h4>
+          <h4>About - Alexander</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare
             sagittis erat, tempor dignissim nibh pharetra quis. Donec eu diam in
